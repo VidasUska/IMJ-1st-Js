@@ -1,0 +1,9 @@
+$kintamojoPavadinimas: #fff;
+
+@mixin lapai($kintamasis) {
+    background: $kintamasis;
+}
+
+body {
+    @include lapai($kintamojoPavadinimas)
+}
